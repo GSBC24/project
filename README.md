@@ -1,13 +1,13 @@
 Census API — Course Assignment
-🌍 Hosted Application
+Hosted Application
 
 Your deployed application is available at:
 
 https://project-03jq.onrender.com
 
-✔️ You should paste your own Render URL here if it changes in the future.
+You should paste your own Render URL here if it changes in the future.
 
-📌 Project Description
+Project Description
 
 This is a RESTful Census API built with:
 
@@ -21,7 +21,7 @@ Render.com for deployment
 
 The API allows an authenticated Admin user to perform full CRUD operations on census participants.
 
-🔐 Authentication
+Authentication
 
 All endpoints (except /) are protected with Basic Authentication.
 
@@ -36,7 +36,7 @@ Authorization → Basic Auth
 
 Enter the credentials above.
 
-⚙️ Environment Variables (.env)
+Environment Variables (.env)
 
 Your application uses the following environment variables:
 
@@ -51,9 +51,8 @@ DB_PORT=18327
 ADMIN_USER=admin
 ADMIN_PASSWORD=P4ssword
 
-⚠️ Important: Do NOT commit your real database password to GitHub.
 
-🗄️ Database (MySQL - Aiven)
+Database (MySQL - Aiven)
 
 The following table must exist in your MySQL database:
 
@@ -113,7 +112,6 @@ GET /participants/home/:email
 ➤ Update a participant
 
 PUT /participants/:email
-(Uses the same JSON format as POST /participants/add)
 
 ➤ Delete a participant
 
@@ -131,7 +129,7 @@ Build Command: npm install
 
 Start Command: node server.js
 
-👨‍💻 Author
+Author
 
 Your Name
 GitHub: GSBC24
